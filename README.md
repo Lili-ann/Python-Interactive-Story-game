@@ -37,19 +37,3 @@ Follow the on-screen prompts. Answers are **case sensitive**.
 
 ---
 
-## 📁 Project Structure
-
-```
-├── app.py                        # Flask backend — game logic, session state, API routes
-├── templates/
-│   └── index.html                # Single-page frontend (title, game, ending screens)
-├── static/
-│   ├── style.css                 # Horror theme — fonts, HP bar, animations
-│   └── game.js                   # Typewriter engine, HP display, API calls
-└── EYE SCARE project/            # Original Python console game (unchanged)
-    ├── maingame.py               # Entry point — game loop
-    ├── choicesystem.py           # Choice handling and branching logic
-    ├── choicedisplay.py          # All story text and display functions
-    ├── healthsystem.py           # HP / anklet system
-    └── itemsystem.py             # Item and weapon management
-```
